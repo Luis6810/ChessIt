@@ -1,0 +1,97 @@
+/* body{
+    outline-style: solid;
+} */
+
+.white{
+    /* background: white; */
+    background-color: white ;
+    color: black;
+    /* background: radial-gradient(circle, rgba(0,255,248,1) 15%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 89%);  */
+
+}
+
+.black{
+    background-color: black;
+    color: white;
+}   
+
+.grid-container {
+  display: grid;
+  width: 800px;
+  height: 800px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8,1fr);
+  outline-style: solid;
+}
+
+/* #b1{
+  background-image: url("Black R.ico");
+} */
+
+/* .a8 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.a7 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.a6 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+.a5 {
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+.a4 {
+  grid-column-start: 1;
+  grid-row-start: 5;
+}
+.a3 {
+  grid-column-start: 1;
+  grid-row-start: 6;
+}
+.a2 {
+  grid-column-start: 1;
+  grid-row-start: 7;
+}
+.a1 {
+  grid-column-start: 1;
+  grid-row-start: 8;
+}
+
+.b8 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.c8 {
+  grid-column-start: 3  ;
+  grid-row-start: 1;
+}
+
+.d8 {
+  grid-column-start: 4  ;
+  grid-row-start: 1;
+}
+
+.e8 {
+  grid-column-start: 5  ;
+  grid-row-start: 1;
+}
+
+.f8 {
+  grid-column-start: 6  ;
+  grid-row-start: 1;
+}
+
+.g8 {
+  grid-column-start: 7  ;
+  grid-row-start: 1;
+}
+
+.h8 {
+  grid-column-start: 8  ;
+  grid-row-start: 1;
+} */

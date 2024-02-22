@@ -1,0 +1,21 @@
+doctype
+html(lang='es')
+    head
+        meta(charset='utf-8')
+        title Chessito
+        link(rel="stylesheet", href="styles/style.css")
+    body
+        div(class='grid-container' id="tablero") 
+            each row in [8,7,6,5,4,3,2,1]
+                each col,index in ['a','b','c','d','e','f','g','h']
+                    -var cordenada = row + index;
+                    if cordenada%2==0
+                        div(class="white " id=col+row)=col+row
+                    else 
+                        div(class="black " id=col+row)=col+row
+        
+    script(src='scripts/inicio.js')
+    //- -alert("pruebas ");
+    //- script window.location.href = "https://www.google.com"; 
+    
+            //- window.location.href = "http://www.w3schools.com";
