@@ -32,37 +32,11 @@
 //     console.log(val);
 // }
 
-function obtenerMovimientosAlfil(posicion) {
-    const letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
-    const numeros = ['1', '2', '3', '4', '5', '6', '7', '8'];
 
-    const fila = letras.indexOf(posicion[0]);
-    const columna = numeros.indexOf(posicion[1]);
+console.log("first");
+setTimeout(() => {
+    console.log("second");
 
-    const movimientos = [];
+},0);
 
-    // Movimientos en diagonal hacia arriba a la derecha y hacia abajo a la izquierda
-    for (let i = 1; fila + i < 8 && columna + i < 8; i++) {
-            
-    }
-
-    for (let i = 1; fila - i >= 0 && columna - i >= 0; i++) {
-        movimientos.push(letras[fila - i] + numeros[columna - i]);
-    }
-
-    // Movimientos en diagonal hacia arriba a la derecha
-    for (let i = 1; fila + i < 8 && columna + i < 8; i++) {
-        movimientos.push(letras[fila + i] + numeros[columna + i]);
-    }
-
-    // Movimientos en diagonal hacia arriba a la izquierda
-    for (let i = 1; fila - i >= 0 && columna + i < 8; i++) {
-        movimientos.push(letras[fila - i] + numeros[columna + i]);
-    }
-
-
-    return movimientos;
-}
-
-// Ejemplo de uso:
-console.log(obtenerMovimientosAlfil("c4")); // Devuelve los movimientos posibles para un alfil en c4
+console.log("third"); 

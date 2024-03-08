@@ -20,6 +20,9 @@ app.get("/", (req, res) => {
 });
 
 // app.use("/mainGame", mainGame);
+app.use((req,res)=>{
+    res.send("No hay ruta disponibles   ");
+});
 
 app.listen(3000, () => {
     console.log("Server running on port 3000");
